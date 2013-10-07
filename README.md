@@ -1,2 +1,15 @@
 ## Zadania ze środowiska Programisty.
-Ala ma kota
+
+Aby zmienić hasło należy na terminalu wpisać:
+
+```sh
+passid
+```
+
+Prosty program w C:
+
+```c
+main()
+{
+  printf("Hello World!");
+}
