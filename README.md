@@ -3,10 +3,10 @@
 Aby zmienić hasło należy na terminalu wpisać:
 
 ```sh
-passid
+passwd
 ```
 
-Prosty program w C :
+Prosty program w C:
 
 ```c
 main()
