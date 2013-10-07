@@ -21,12 +21,11 @@ main()
 
 
 Test Markdown:
-```mkd
 Coś
 ====
 
 + cos1
 + cos2
 + cos3
-```
+
 
