@@ -1,6 +1,6 @@
 ## Zadania ze Środowiska Programisty.
 
-Tekst wpisujemy w notacji [Markdown](http://daringfireball.net/projects/markdown/basics) 
+Tekst wpisujemy w notacji [Markdown] [podstawy markdown].
 
 Aby zmienić hasło należy na terminalu wpisać:
 
@@ -15,3 +15,5 @@ main()
 {
   printf("Hello World!");
 }
+
+[podstawy markdown]: http://daringfireball.net/projects/markdown/basics
