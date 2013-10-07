@@ -1,4 +1,4 @@
-## Zadania ze środowiska Programisty.
+## Zadania ze Środowiska Programisty.
 
 Aby zmienić hasło należy na terminalu wpisać:
 
