@@ -1,4 +1,2 @@
-sp
-==
-
-Zadania ze środowiska Programisty
+## Zadania ze środowiska Programisty.
+Ala ma kota
