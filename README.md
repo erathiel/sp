@@ -6,7 +6,7 @@ Aby zmienić hasło należy na terminalu wpisać:
 passid
 ```
 
-Prosty program w C:
+Prosty program w C :
 
 ```c
 main()
