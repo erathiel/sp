@@ -1,4 +1,4 @@
-### Rozwiazania zadań z Basha, Laboratorium 1
+### Laboratorium 1
 
 1\. Używając linii poleceń stwórz strukturę katalogów:
 
