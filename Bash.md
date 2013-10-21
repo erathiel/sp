@@ -63,28 +63,28 @@ cd ../../dom/wazne-sprawy
 diff ./odtworzono.txt ../../praca/zlecenia/zrealizowane/wykonano.txt
 ```
 
-10\. Wyświetl kalendarz na październik 2009 r. (cal)
+10\. Wyświetl kalendarz na październik 2013 r. (cal)
 
 ```sh
-cal 10 2009
+cal 10 2013
 ```
 
-Wyświetl kalendarz na wrzesień, październik i listopad 2009 r. z miesiącami obok siebie (cal):
+Wyświetl kalendarz na wrzesień, październik i listopad 2013 r. z miesiącami obok siebie (cal):
 
 ```sh
-cal 11 2009 -B2
+cal 11 2013 -B2
 ```
 
-Wyświetl kalendarz na październik, listopad i grudzień 2009 r. w taki sposób:
+Wyświetl kalendarz na październik, listopad i grudzień 2013 r. w taki sposób:
 
 ```sh
-cal 11 2009 -A1 -B1
+cal 11 2013 -A1 -B1
 ```
 
-I jeszcze raz na wrzesień i październik oraz na październik i listopad 2009 r z miesiącami obok siebie (cal, cut?):
+I jeszcze raz na wrzesień i październik oraz na październik i listopad 2013 r z miesiącami obok siebie (cal, cut?):
 
 ```sh
-cal 11 2009 -B1
+cal -3 11 2013 | cut -c 1-43
 ```
 
 11\. Jaki był dzień tygodnia 25 maja 1975 r. (cal i date):
