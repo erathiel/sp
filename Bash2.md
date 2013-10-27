@@ -10,7 +10,6 @@ head -n 2 program.c
 2\. Wyświetl na ekran 4 ostatnie wiersze pliku program.c. (head, tail)
 
 ```sh
-head
 tail -n 4 program.c
 ```
 
@@ -23,3 +22,39 @@ grep 'main' program.c
 4\. Plikowi program.c nadaj następujące uprawnienia: właściciel – czytanie, pisanie, grupa – czytanie, pozostali użytkownicy: brak uprawnień. (chmod)
 
 ```sh
+chmod 620 program.c
+```
+
+5\. Będąc w katalogu tmp przenieś katalog wazne-sprawy do katalogu praca.
+
+```sh
+cd ../../
+mv dom/wazne-sprawy praca
+```
+
+6\. Zarchiwizuj cały katalog tmp. (zip i tar)
+
+```sh
+tar -cf tmp.tar tmp
+zip tmp.zip ~/tmp/
+```
+
+7\. Usuń katalog tmp.
+
+```sh
+rm -r tmp
+```
+
+8\. Odtwórz z archiwum katalog tmp. (unzip i tar)
+
+```sh
+tar -xf tmp.tar
+unzip tmp.zip
+```
+
+9\. Posprzątaj na swoim koncie.
+
+```sh
+rm tmp.tar
+rm tmp.zip
+```
