@@ -17,6 +17,8 @@ tail -n 4 program.c
 
 ```sh
 grep 'main' program.c
+grep -v main program.c
+grep 'main\b' program.c
 ```
 
 4\. Plikowi program.c nadaj następujące uprawnienia: właściciel – czytanie, pisanie, grupa – czytanie, pozostali użytkownicy: brak uprawnień. (chmod)
@@ -57,4 +59,16 @@ unzip tmp.zip
 ```sh
 rm tmp.tar
 rm tmp.zip
+```
+10\. (Dodatkowe) Linijki ze środka tekstu od przodu.
+
+```sh
+head -n4 program.c | tail -n2
+```
+
+11\. (Dodatkowe) Linijki ze środka tekstu od tyłu.
+
+```sh
+tail -n 6 program.c | head -n 2
+tac program.c | head -n 7 | tail -n 3 | tac
 ```
