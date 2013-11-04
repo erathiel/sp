@@ -21,11 +21,14 @@ cat> tekst3.txt - tekst1.txt - tekst2.txt
 
 5\. Wyświetl linie o numerach 7, 6 i 5 od końca pliku /etc/passwd.
 
+```sh
+tail -n 7 /etc/passwd | head -n 3 
+```
 
 6\. Wyświetl zawartość pliku /etc/passwd w jednej linii.
 
 ```sh
-cat /etc/passwd/ | tr -d "\n" " "
+cat /etc/passwd/ | tr "\n" " "
 ```
 
 7\. Za pomocą filtru tr wykonaj modyfikację pliku plik.txt, polegającą na umieszczeniu każdego słowa w osobnej linii.
