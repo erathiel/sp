@@ -35,11 +35,13 @@ tail -n 7 /etc/passwd | head -n 3
 
 ```sh
 cat /etc/passwd/ | tr "\n" " "
-cat /etc/passwd/ | tr " " "\n"
 ```
 
 7\. Za pomocą filtru tr wykonaj modyfikację pliku plik.txt, polegającą na umieszczeniu każdego słowa w osobnej linii.
 
+```sh
+cat plik.txt | tr " " "\n"
+```
 
 8\. Zlicz wszystkie pliki znajdujące się w katalogu /etc i jego podkatalogach.
 
