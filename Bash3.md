@@ -15,9 +15,15 @@ cat> tekst3.txt - tekst1.txt - tekst2.txt
 
 3\. Wyświetl po 5 pierwszych linii wszystkich plików w swoim katalogu domowym w taki sposób, aby nie były wyświetlane ich nazwy.
 
+```sh
+head $HOME/* -n 5
+```
 
 4\. Wyświetl linie o numerach 3, 4 i 5 z pliku /etc/passwd.
 
+```sh
+head -n 5 /etc/passwd |tail -n 3
+```
 
 5\. Wyświetl linie o numerach 7, 6 i 5 od końca pliku /etc/passwd.
 
@@ -41,3 +47,7 @@ ls -a /etc | wc -l
 ```
 
 9\. Napisać polecenie zliczające ilość znaków z pierwszych trzech linii pliku /etc/passwd.
+
+```sh
+head -n 3 /etc/passwd | wc -c
+```
