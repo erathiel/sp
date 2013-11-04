@@ -24,11 +24,17 @@ cat> tekst3.txt - tekst1.txt - tekst2.txt
 
 6\. Wyświetl zawartość pliku /etc/passwd w jednej linii.
 
+```sh
+cat /etc/passwd/ | tr -d "\n" " "
+```
 
 7\. Za pomocą filtru tr wykonaj modyfikację pliku plik.txt, polegającą na umieszczeniu każdego słowa w osobnej linii.
 
 
 8\. Zlicz wszystkie pliki znajdujące się w katalogu /etc i jego podkatalogach.
 
+```sh
+ls -a /etc | wc -l
+```
 
 9\. Napisać polecenie zliczające ilość znaków z pierwszych trzech linii pliku /etc/passwd.
