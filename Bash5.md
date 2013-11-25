@@ -15,7 +15,7 @@ find / -name *conf* -type f 2> /dev/null -print
 3\. Znajdź w swoim katalogu domowym wszystkie pliki, które nie były używane w ciągu ostatnich 20 dni.
 
 ```sh
-find ~/ -type f | -mtime -20
+find ~/ -type f -mtime -20
 ```
 
 4\. Znajdź w katalogu /etc wszystkie niepuste podkatalogi i pliki o nazwach zaczynających się na literę „a”.
