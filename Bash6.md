@@ -12,7 +12,7 @@ grep [^[:space:][:cntrl:]] plik.txt
 grep -r ^[0-9] pl*
 ```
 
-3\. Znajdź pliki, zawierające wiersz w którym na 9 pozycji występuje litera r. (?)
+3\. Znajdź pliki, zawierające wiersz w którym na 9 pozycji występuje litera r.
 
 ```sh
 grep -E '^.{8}r.*' *
@@ -28,5 +28,5 @@ grep -c bash /etc/passwd
 5\. Znajdź wiersze zawierające liczby rzymskie w pliku plik.txt. (?)
 
 ```sh
-egrep "(X|D|C|M|V|L|I){1,}" plik.txt
+egrep -i "(X|D|C|M|V|L|I)" plik.txt
 ```
